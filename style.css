@@ -1,0 +1,49 @@
+.sorting-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.block{
+    margin: 2%;
+    width: 100px;
+}
+.button-selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    color: white;
+
+}
+button:hover{
+    opacity: .5;
+}
+.start{
+    background: rgb(80, 228, 80);
+}
+button:disabled{
+    background-color: gray;
+    opacity: .5;
+    border: 2px solid gray;
+}
+.shuffle{
+    background: none;
+    border: 2px solid  rgb(80, 228, 80);
+    
+    color: black;
+}
+h1{
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    text-align: center;
+}
